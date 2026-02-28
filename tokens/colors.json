@@ -1,0 +1,49 @@
+{
+  "brand": {
+    "green": "#33FF99",
+    "greenHover": "#00F77C",
+    "greenActive": "#00BC5E",
+    "greenMuted": "#006E37",
+    "greenSubtle": "rgba(51, 255, 153, 0.08)",
+    "greenGlow": "rgba(51, 255, 153, 0.4)"
+  },
+  "dark": {
+    "bg": {
+      "primary": "#131313",
+      "deep": "#030508",
+      "surface": "#2C2F36",
+      "elevated": "#40444F"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#C3C5CB",
+      "muted": "#6C7284",
+      "subtle": "#565A69"
+    }
+  },
+  "light": {
+    "bg": {
+      "primary": "#FFFFFF",
+      "deep": "#F7F8FA",
+      "surface": "#EDEEF2",
+      "elevated": "#CED0D9"
+    },
+    "text": {
+      "primary": "#131313",
+      "secondary": "#565A69",
+      "muted": "#888D9B",
+      "subtle": "#C3C5CB"
+    }
+  },
+  "semantic": {
+    "success": "#33FF99",
+    "error": "#FD025D",
+    "warning": "#F3841E",
+    "info": "#33FFF4"
+  },
+  "glass": {
+    "bg": "rgba(10, 13, 18, 0.6)",
+    "border": "rgba(255, 255, 255, 0.08)",
+    "blur": "20px"
+  }
+}

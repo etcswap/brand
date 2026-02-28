@@ -1,0 +1,93 @@
+/**
+ * ETCswap Brand Colors
+ * Design tokens as CSS custom properties
+ *
+ * Usage:
+ *   @import url('path/to/colors.css');
+ *   background: var(--brand-green);
+ */
+
+/* ==========================================
+   Dark Mode (Default)
+   ========================================== */
+
+:root {
+  /* Primary Brand */
+  --brand-green: #33FF99;
+  --brand-green-hover: #00F77C;
+  --brand-green-active: #00BC5E;
+  --brand-green-muted: #006E37;
+  --brand-green-subtle: rgba(51, 255, 153, 0.08);
+  --brand-green-glow: rgba(51, 255, 153, 0.4);
+
+  /* Backgrounds */
+  --bg-primary: #131313;
+  --bg-deep: #030508;
+  --bg-surface: #2C2F36;
+  --bg-elevated: #40444F;
+  --bg-overlay: rgba(10, 13, 18, 0.6);
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #C3C5CB;
+  --text-muted: #6C7284;
+  --text-subtle: #565A69;
+  --text-disabled: #2C2F36;
+
+  /* Borders */
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-brand: rgba(51, 255, 153, 0.3);
+
+  /* Semantic */
+  --color-success: #33FF99;
+  --color-error: #FD025D;
+  --color-warning: #F3841E;
+  --color-info: #33FFF4;
+
+  /* Glass */
+  --glass-bg: rgba(10, 13, 18, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 20px;
+}
+
+/* ==========================================
+   Light Mode
+   ========================================== */
+
+:root[data-theme="light"],
+.light {
+  /* Primary Brand (unchanged) */
+  --brand-green: #33FF99;
+  --brand-green-hover: #5AFFAD;
+  --brand-green-active: #81FFC0;
+  --brand-green-muted: #A9FFD4;
+  --brand-green-subtle: rgba(51, 255, 153, 0.06);
+  --brand-green-glow: rgba(51, 255, 153, 0.2);
+
+  /* Backgrounds */
+  --bg-primary: #FFFFFF;
+  --bg-deep: #F7F8FA;
+  --bg-surface: #EDEEF2;
+  --bg-elevated: #CED0D9;
+  --bg-overlay: rgba(255, 255, 255, 0.8);
+
+  /* Text */
+  --text-primary: #131313;
+  --text-secondary: #565A69;
+  --text-muted: #888D9B;
+  --text-subtle: #C3C5CB;
+  --text-disabled: #EDEEF2;
+
+  /* Borders */
+  --border-default: rgba(0, 0, 0, 0.08);
+  --border-subtle: rgba(0, 0, 0, 0.04);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --border-brand: rgba(51, 255, 153, 0.4);
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(0, 0, 0, 0.06);
+  --glass-blur: 20px;
+}
